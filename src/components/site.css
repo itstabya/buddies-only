@@ -1,4 +1,43 @@
+
+
 html{
     background-color: #FFFCF3;
+    font-family: "Rubik One",sans-serif;
 }
 
+h1{
+    font-family: "Rubik One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 59px;
+    color: #000000;
+    }
+
+h2{
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+    color: #000000;
+
+}
+
+p.body{
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 25px;
+    color: #000000;
+}
+
+p.secondary{
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
