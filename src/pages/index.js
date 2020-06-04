@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <Layout>
       <img
-        src="../img/profile-pic.jpg"
+        src="src/images/profile-pic.jpg"
         style={{ flex: 96, width: 96, height: 96, margin: 0 }}
         alt="emily and tanya"
       ></img>
