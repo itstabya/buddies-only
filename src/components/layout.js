@@ -22,8 +22,8 @@ export default function Layout({ children }) {
           <h1 style={{ display: `inline` }}>buddiesonly</h1>
         </Link>
         <ul style={{ listStyle: `none`, float: `right` }}>
-          <ListLink to="/about/">About</ListLink>
-          <ListLink to="/posts/">Posts</ListLink>
+          <ListLink to="/about/">ABOUT</ListLink>
+          <ListLink to="/posts/">POSTS</ListLink>
         </ul>
       </header>
       {children}
