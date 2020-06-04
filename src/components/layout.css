@@ -1,3 +1,5 @@
+/* DEFAULT STYLES SHEET, NOT USED */
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -228,6 +230,11 @@ h1 {
   font-size: 2.25rem;
   line-height: 1.1;
 }
+
+h1.title{
+  color: blue;
+}
+
 h2 {
   margin-bottom: 1.45rem;
   color: inherit;
