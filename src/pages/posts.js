@@ -1,11 +1,18 @@
 import React from "react"
 import Layout from "../components/layout"
+import Header from "../components/header"
+import Container from "../components/container"
+
+
+
 export default function Posts() {
   return (
-    <Layout>
+    <Header>
+      <Container>
       <div>
-        <h1>What the Buds be up do</h1>
+        <h2>What the Buds be up to</h2>
       </div>
-    </Layout>
+      </Container>
+    </Header>
   )
 }
