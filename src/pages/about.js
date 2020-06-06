@@ -19,7 +19,7 @@ export default function About() {
       <img src={pink} id="pink" alt="" />
       <img src={yellow} id="yellow" alt="" />
       <img src={blue} id="blue" alt="" />
-      <img src={hey} id={aboutStyles.hey} />
+      <img src={hey} id={aboutStyles.hey} alt="hey there buddy!" />
       <Container>
         <div className={aboutStyles.blurb}>
           <h2>About the Club</h2>
@@ -77,7 +77,11 @@ export default function About() {
           </p>
         </div>
       </Container>
-      <img src={bye} style={{ width: 500, float: "right", marginRight: 80 }} />
+      <img
+        src={bye}
+        style={{ width: 500, float: "right", marginRight: 80 }}
+        alt="love, emily and tanya"
+      />
     </Header>
   )
 }
