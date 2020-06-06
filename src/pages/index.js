@@ -9,6 +9,8 @@ import pink from "../images/pink.png"
 import blue from "../images/blue.png"
 import yellow from "../images/yellow.png"
 
+import indexStyles from "./index.module.css"
+
 
 
 export default function Home() {
@@ -17,27 +19,28 @@ export default function Home() {
       <Container>
         
         {/* background blobs */}
-        <img src={pink} id="pink"/>
-        <img src={yellow} id="yellow"/>
-        <img src={blue} id="blue"/>
+        <img src={pink} id="pink" alt=""/>
+        <img src={yellow} id="yellow" alt=""/>
+        <img src={blue} id="blue" alt=""/>
 
+        <div className={indexStyles.intro}>
         <img
+          className={indexStyles.profpic}
           src={profpic}
-          style={{ flex: 96, width: 150, height: 150, margin: 0 }}
           alt="emily and tanya"
         ></img>
-        <h2 style={{ marginLeft: 300, padding: 0 }}>Welcome to buddiesonly!</h2>
 
-        <p
-          style={{
-            flex: 1,
-            marginLeft: 300,
-            padding: 12,
-          }}
-        >
-          We're so excited to have you here!
+        <div className={indexStyles.bio}>
+        <h2>Welcome to buddiesonly! </h2>
+        <p>
+          We're so excited to have you here! 
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
         </p>
-        <Link to="/test/">Click 2 see header on test page</Link>
+        </div>
+        
+        </div>
+      
       </Container>
     </Header>
   )

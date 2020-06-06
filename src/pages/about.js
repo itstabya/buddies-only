@@ -12,10 +12,10 @@ export default function About() {
     <Header>
       <Container>
         {/* background blobs */}
-        <img src={pink} id="pink"/>
-        <img src={yellow} id="yellow"/>
-        <img src={blue} id="blue"/>
-        
+        <img src={pink} id="pink" alt=""/>
+        <img src={yellow} id="yellow" alt=""/>
+        <img src={blue} id="blue" alt=""/>
+
       <div>
         <h2>About me</h2>
         <p>the buddies only site is about to come to life!</p>

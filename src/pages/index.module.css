@@ -1,0 +1,23 @@
+.profpic{
+    width: 300px;
+    margin-left: auto;
+    margin-right: 20px;
+    display: block;
+    align-self: center;
+    max-width: 100%;
+    min-width: 30%;
+    flex: 1;
+
+}
+
+.intro{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.bio{
+    width: 50%;
+    flex: 1;
+}

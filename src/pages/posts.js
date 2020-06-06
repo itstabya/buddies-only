@@ -13,7 +13,7 @@ export default function Posts() {
     <Header>
       <Container>
         {/* background blobs */}
-       <img src={pink} id="pink"/>
+       <img src={pink} id="pink" alt=""/>
       <div>
         <h2>What the Buds be up to</h2>
       </div>
