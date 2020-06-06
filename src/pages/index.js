@@ -37,6 +37,7 @@ export default function Home() {
             </p>
           </div>
         </div>
+        <div className={indexStyles.recentPosts}></div>
       </Container>
     </Header>
   )

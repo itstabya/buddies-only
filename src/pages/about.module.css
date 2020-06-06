@@ -1,0 +1,33 @@
+.blurb {
+  padding-bottom: 30px;
+}
+
+.bios {
+  display: inline-block;
+}
+.bio {
+  display: inline-block;
+}
+
+#emily {
+  float: left;
+  padding-right: 15px;
+  width: 50%;
+}
+
+#tanya {
+  float: right;
+  padding-left: 15px;
+  width: 50%;
+}
+
+.bioPic {
+  border-radius: 50%;
+  width: 200px;
+  height: auto;
+  float: left;
+}
+.bioBlurb {
+  float: right;
+  width: 50%;
+}
