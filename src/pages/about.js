@@ -7,6 +7,9 @@ import blue from "../images/blue.png"
 import yellow from "../images/yellow.png"
 import stockemily from "../images/stockemily.png"
 import stocktanya from "../images/stocktanya.png"
+import hey from "../images/hey.png"
+import bye from "../images/bye.png"
+
 import aboutStyles from "./about.module.css"
 
 export default function About() {
@@ -16,6 +19,7 @@ export default function About() {
       <img src={pink} id="pink" alt="" />
       <img src={yellow} id="yellow" alt="" />
       <img src={blue} id="blue" alt="" />
+      <img src={hey} id={aboutStyles.hey} />
       <Container>
         <div className={aboutStyles.blurb}>
           <h2>About the Club</h2>
@@ -73,6 +77,7 @@ export default function About() {
           </p>
         </div>
       </Container>
+      <img src={bye} style={{ width: 500, float: "right", marginRight: 80 }} />
     </Header>
   )
 }
