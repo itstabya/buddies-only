@@ -5,6 +5,8 @@
  */
 
 // You can delete this file if you're not using it
+//actions - helper functions that do things insde of gatsby
+
 exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions
 

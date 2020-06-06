@@ -1,7 +1,7 @@
 ---
-slug: "/blog/my-first-post"
+slug: "/blog/buddybites/the-mugs"
 date: "2020-06-06"
-title: "My first blog post"
+title: "Study Spot Alert: The Mugs"
 ---
 
 first blog post, trying things out !
