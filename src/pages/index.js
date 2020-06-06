@@ -11,36 +11,32 @@ import yellow from "../images/yellow.png"
 
 import indexStyles from "./index.module.css"
 
-
-
 export default function Home() {
   return (
     <Header>
+      {/* background blobs */}
+      <img src={pink} id="pink" alt="" />
+      <img src={yellow} id="yellow" alt="" />
+      <img src={blue} id="blue" alt="" />
       <Container>
-        
-        {/* background blobs */}
-        <img src={pink} id="pink" alt=""/>
-        <img src={yellow} id="yellow" alt=""/>
-        <img src={blue} id="blue" alt=""/>
-
         <div className={indexStyles.intro}>
-        <img
-          className={indexStyles.profpic}
-          src={profpic}
-          alt="emily and tanya"
-        ></img>
+          <img
+            className={indexStyles.profpic}
+            src={profpic}
+            alt="emily and tanya"
+          />
 
-        <div className={indexStyles.bio}>
-        <h2>Welcome to buddiesonly! </h2>
-        <p>
-          We're so excited to have you here! 
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-        </p>
+          <div className={indexStyles.bio}>
+            <h2>Welcome to buddiesonly! </h2>
+            <p>
+              We're so excited to have you here! Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+              nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat.
+            </p>
+          </div>
         </div>
-        
-        </div>
-      
       </Container>
     </Header>
   )
