@@ -14,6 +14,11 @@
     margin-bottom: 0px;
 }
 
+.categoryTitle:hover{
+    color:#EBBBB9;
+}
+
+
 .description{
     margin-top: 0px;
 
