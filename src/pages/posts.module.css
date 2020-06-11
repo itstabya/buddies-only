@@ -14,14 +14,8 @@
     margin-bottom: 0px;
 }
 
-.categoryTitle:hover{
-    color:#EBBBB9;
-}
-
-
 .description{
     margin-top: 0px;
-
 }
 
 .emoji{
@@ -31,8 +25,12 @@
 
 .link{
     text-decoration: none;
+    color: black;
 }
 
+.link:hover{
+    color: #EBBBB9;
+}
 .background{
     position: absolute;
     top: 30%;

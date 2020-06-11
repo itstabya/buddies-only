@@ -14,9 +14,11 @@ const Description = props => (
   <div className={postStyles.section}>
     <p className={postStyles.emoji}>{props.emoji}</p>
     <div className={postStyles.text}>
-    <Link className={postStyles.link} to={props.link}>
-    <h2 className={postStyles.categoryTitle}>{props.categoryTitle}</h2>
+    <h2 className={postStyles.categoryTitle}>
+      <Link className={postStyles.link} to={props.link}>
+    {props.categoryTitle}
     </Link>
+    </h2>
     <p className={postStyles.description}>{props.description}</p>
     </div>
   </div>
