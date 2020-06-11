@@ -1,0 +1,40 @@
+.title{
+    text-align: center;
+}
+
+.section{
+    display: flex;
+    flex-direction: row;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.categoryTitle{
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+.description{
+    margin-top: 0px;
+
+}
+
+.emoji{
+    padding-top: 7px;
+    padding-right: 5px;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.background{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    right: 10%;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: -1;
+}
